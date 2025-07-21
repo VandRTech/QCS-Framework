@@ -1,4 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16263487.svg)](https://doi.org/10.5281/zenodo.16263487)
 
+---
 # Quantum Contextual Superposition (QCS) Framework
 
 The **Quantum Contextual Superposition (QCS)** framework proposes a next-generation approach to conversational AI. By treating future user responses as a **semantic probability cloud** and collapsing it when actual input is received, QCS achieves higher relevance, precision, and proactivity in dialogue.
@@ -135,13 +137,38 @@ Returns:
 
 ## 🎯 Benefits
 
-* ✅ **Precision:** Retrieves specific, relevant info even from vague input.
-* ⚡ **Efficiency:** Replaces costly LLM with lightweight generator for anticipation.
-* 🔍 **Ambiguity-Resilience:** Vague replies like "why?" still produce relevant retrievals.
-* 🧩 **Elegant Design:** Modular architecture, deterministic behavior, better debugging.
+- ✅ **Precision:** Retrieves specific, relevant info even from vague input.  
+- ⚡ **Efficiency:** Replaces costly LLM with lightweight generator for anticipation.  
+- 🔍 **Ambiguity-Resilience:** Vague replies like "why?" still produce relevant retrievals.  
+- 🧩 **Elegant Design:** Modular architecture, deterministic behavior, better debugging.  
 
 ---
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16263487.svg)](https://doi.org/10.5281/zenodo.16263487)
+
+## 📖 Citation
+
+If you reference this framework in academic or technical work, please cite:
+
+**Mekala, Vishal Chowdary.** (2025). *The Quantum Contextual Superposition (QCS) Algorithm*. Zenodo.  
+🔗 [https://doi.org/10.5281/zenodo.16263487](https://doi.org/10.5281/zenodo.16263487)
+
+<details>
+<summary>📚 <strong>BibTeX</strong> 
+
+```bibtex
+@misc{mekala2025qcs,
+  author       = {Mekala, Vishal Chowdary},
+  title        = {The Quantum Contextual Superposition (QCS) Algorithm},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.16263487},
+  url          = {https://doi.org/10.5281/zenodo.16263487}
+}
+
+````
+
+---
 ## 📚 References
 
 * [QCS: The Quantum Contextual Superposition Algorithm](https://drive.google.com/file/d/1CwLmDByw1G7twOc0BWrwfFWLnFMhfjz2/view?usp=sharing)
@@ -158,9 +185,20 @@ Returns:
 ---
 
 ## 🧭 License
+This work is licensed under the  
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.  
+You are free to:
 
-TBD(Vishal Chowdary Mekala). For academic use only. Contact author for collaboration.
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material  
 
----
+Under the following terms:
 
-```
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+
+📄 [View License](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+🔗 SPDX Identifier: `CC-BY-NC-SA-4.0`
+
+© 2025 **Mekala, Vishal Chowdary.** *The Quantum Contextual Superposition (QCS) Algorithm*
