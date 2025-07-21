@@ -1,3 +1,4 @@
+
 # Quantum Contextual Superposition (QCS) Framework
 
 The **Quantum Contextual Superposition (QCS)** framework proposes a next-generation approach to conversational AI. By treating future user responses as a **semantic probability cloud** and collapsing it when actual input is received, QCS achieves higher relevance, precision, and proactivity in dialogue.
@@ -85,80 +86,81 @@ v_entangled = beta * v_cur + (1 - beta) * v_collapse
 R_n = retrieve_from_memory(v_entangled)
 P_n = construct_prompt(C_n, R_n)
 x_n = LLM(P_n)
-🩺 Example: Medical Expert Assistant
-Context: Geriatric cardiologist researching Amlodipine.
+````
 
-User query: "And for the elderly?"
+---
 
-Without QCS:
+## 🩺 Example: Medical Expert Assistant
+
+**Context:** Geriatric cardiologist researching Amlodipine.
+
+**User query:** "And for the elderly?"
+
+### Without QCS:
+
 Returns general data on Amlodipine in elderly.
 
-With QCS:
+### With QCS:
+
 Returns:
 
-Table 5.3 from HYVET trial on 75+ adverse effects
+* Table 5.3 from HYVET trial on 75+ adverse effects
+* Study on pharmacokinetics in elderly
+* FDA dosage guidelines for hepatic impairment
 
-Study on pharmacokinetics in elderly
+![QCS Medical Example Diagram](./images/qcs_medical_example.png)
 
-FDA dosage guidelines for hepatic impairment
+---
 
+## 🧠 Architectural Layers
 
-🧠 Architectural Layers
-QCS Layered Design
+### QCS Layered Design
 
-Layer 1: Superposition Modeling
+![QCS Architecture Stack](./images/qcs_architecture_layers.png)
 
-G_gen handles semantic forecasting.
+* **Layer 1: Superposition Modeling**
 
-Layer 2: Collapse Logic
+  * G\_gen handles semantic forecasting.
+* **Layer 2: Collapse Logic**
 
-Vector projection logic computes realization of user intent.
+  * Vector projection logic computes realization of user intent.
+* **Layer 3: Retrieval Engine**
 
-Layer 3: Retrieval Engine
+  * Entangled vector powers high-precision semantic memory search.
+* **Layer 4: LLM Orchestration**
 
-Entangled vector powers high-precision semantic memory search.
+  * Uses fused prompt to generate coherent, informed responses.
 
-Layer 4: LLM Orchestration
+---
 
-Uses fused prompt to generate coherent, informed responses.
+## 🎯 Benefits
 
-🎯 Benefits
-✅ Precision: Retrieves specific, relevant info even from vague input.
+* ✅ **Precision:** Retrieves specific, relevant info even from vague input.
+* ⚡ **Efficiency:** Replaces costly LLM with lightweight generator for anticipation.
+* 🔍 **Ambiguity-Resilience:** Vague replies like "why?" still produce relevant retrievals.
+* 🧩 **Elegant Design:** Modular architecture, deterministic behavior, better debugging.
 
-⚡ Efficiency: Replaces costly LLM with lightweight generator for anticipation.
+---
 
-🔍 Ambiguity-Resilience: Vague replies like "why?" still produce relevant retrievals.
+## 📚 References
 
-🧩 Elegant Design: Modular architecture, deterministic behavior, better debugging.
+* [QCS: The Quantum Contextual Superposition Algorithm](https://drive.google.com/file/d/1CwLmDByw1G7twOc0BWrwfFWLnFMhfjz2/view?usp=sharing)
+* [Mathematical Formalization of Conversational Engineering](https://drive.google.com/file/d/1ZCfYLU5UTa4zdqi7NbRseH45lR18xVnH/view?usp=sharing)
 
-📚 References
-QCS: The Quantum Contextual Superposition Algorithm
+---
 
-Mathematical Formalization of Conversational Engineering
+## 📌 Project Status
 
-📌 Project Status
-🚧 QCS is a theoretical framework
-🧠 Intended for researchers, architects, and experimentalists
-🛠️ No implementation or software dependencies required
+* 🚧 QCS is a **theoretical framework**
+* 🧠 Intended for researchers, architects, and experimentalists
+* 🛠️ No implementation or software dependencies required
 
-🧾 Citation
-bibtex
-Copy
-Edit
-@article{qcs2025,
-  title={Quantum Contextual Superposition: Anticipatory Dialogue through Probabilistic Collapse},
-  author={Chowdary, Vishal and Team},
-  year={2025},
-  note={Preprint}
-}
-🖼️ Diagram Credits
-qcs_pipeline.png: Visual flow of QCS from superposition to generation.
+---
 
-qcs_medical_example.png: Diagram of collapse process in medical AI.
+## 🧭 License
 
-qcs_architecture_layers.png: System architecture of QCS in layered form.
+TBD(Vishal Chowdary Mekala). For academic use only. Contact author for collaboration.
 
-Please generate or request these illustrations based on provided descriptions.
+---
 
-🧭 License
-TBD. For academic use only. Contact author for collaboration.
+```
